@@ -1,0 +1,62 @@
+.test ul{
+    display: flex;
+    padding: 0;
+    cursor: pointer;
+}
+.test li{
+    border: 1px solid black;
+    padding: 10px 40px;
+}
+.test li:hover{
+    border: 1px solid;
+    background-color: black;
+    color: white;
+}
+.test li::marker{
+    font-size: 0;
+}
+#click2, #click3{
+    display: none;
+}
+.col-md-6{
+    width: 50%;
+    float: left;
+}
+body{
+    width: 70%;
+    margin: 0 auto;
+}
+#click2 p{
+    color: red;
+}
+#click3 p{
+    color: green;
+}
+
+input{
+   outline: unset;
+   width: 100%;
+   float: left;
+   padding: 15px;
+}
+input + span{
+   color: red;
+   width: 100%;
+   float: left;
+   display: none;
+ }
+ #submit{
+    cursor: pointer;
+}
+.error input{
+    border-color: red;
+    border-style: solid;
+}
+
+.error input + span{
+    display: block;
+}
+.form-s .col-md-12{
+    margin-bottom: 20px;
+    float: left;
+ }
